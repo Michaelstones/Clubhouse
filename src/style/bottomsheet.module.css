@@ -1,0 +1,71 @@
+.BottomSheetContainer{
+    background-color: #ffffff;
+    height: 100%;
+    padding: 1.5em 1em;
+    border-radius: 1.5em 1.5em 0 0 ;
+    position: relative;
+}
+
+.switchLine{
+    position: absolute;
+    background-color: #cccccc;
+    height: 6px;
+    width: 35px;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.addAtopic{
+    background-color: transparent;
+    border: none;
+    color: #28ae61;
+}
+
+.selectRoom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.selectRoom button{
+    background-color: transparent;
+    border: none;
+    border-radius: 1em;
+    color: var(--textColor);
+    line-height: 1.2;
+    padding: 0.5em 1.3em 0.2em 1.3em;
+}
+
+.selectRoom button.active{
+   border:1px solid lightseagreen;
+   background-color:lightblue;
+}
+
+.selectRoom button div{
+    border-radius: 1.5em;
+    background-color: lightseagreen;
+}
+.selectRoom button  svg{
+    font-size: 4em;
+}
+
+.BottomContainer{
+    text-align: center;
+    font-size: 1em;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+.letgoBtn{
+    background-color: #28ae61;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2em;
+    font-weight: 500;
+    border: none;
+    padding: 0.2em 2em;
+    font-size: 1.3em;
+}

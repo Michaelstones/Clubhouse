@@ -1,0 +1,58 @@
+{
+"people":[
+    {
+        "title":"April Underwood",
+        "desc":"@COO"
+    },
+    {
+        "title":"April Underwood",
+        "desc":"lead consult"
+    },
+    {
+        "title":"April Underwood",
+        "desc":"Head Tech"
+    }
+],
+"conversation":[
+    {
+        "title":"Tech",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Education",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    },
+    {
+        "title":"Politics",
+        "desc":"How would you rather see the world"
+    }
+]
+}

@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #f2f0e4;
+    padding: 0.5em 1em;
+}
+
+.header img{
+    width: 25px;
+}
+
+.nav_items img{
+    margin: 0 0.8em;
+}

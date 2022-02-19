@@ -1,0 +1,47 @@
+:root{
+  --textColor:rgb(65, 64, 66);
+  --btnbgColor: #3287b7;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-family: 'Neutrif Pro';
+}
+
+button{
+  outline: none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+.primaryBtn{
+  background-color: var(--btnbgColor);
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  font-style: normal;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+}
+a:hover{
+  text-decoration: none !important;
+}
+
+.AppLayout{
+  position: relative;
+  background-color: #f2f0e4;
+  max-width: 500px;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}

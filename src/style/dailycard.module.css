@@ -1,0 +1,42 @@
+.diailycard{
+    background-color: #e7e4d5;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.diailycard > div{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
+
+.diailycard > div >span{
+    width: 20%;
+    text-align: end;
+
+}
+
+.diailycard > div >div{
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.diailycard span{
+    font-size: 0.675em;
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+.diailycard  p{
+    display: inline-block;
+    font-size: 0.875em;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    line-height: 1;
+    margin: 0;
+    width: 195px;
+} 
